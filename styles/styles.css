@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.alerta {
+    background-color: #6aa;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+#header {
+    background-color: #fff;
+}
+#menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    list-style: none;
+}
+#logo {
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+#listMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    align-items: center;
+}
+#listItem {
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    padding: 2px;
+}
+#carritoFoto {
+    width: 30px;
+    height: 30px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+.btn-agregar {
+    background-color: #6aa;
+    color: #000;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 15%;
+}
+.btn-agregar:hover {
+    background-color: #6bb;
+}
+#descTit {
+    text-align: center;
+    margin: 10px;
+}
+#carritoTit {
+    text-align: center;
+    margin: 10px;
+}
+#listaProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+#card {
+    padding: 15px;
+    margin-left: 50px;
+}
+#cardTit {
+    text-align: center;
+}
+#botonAg {
+    margin-left: 40px;
+}
+#nProd {
+    color: #000;
+    text-align: center;
+}
+#carrito {
+    display: grid;
+    width: 50%;
+    height: auto;
+    background-color: #6aa;
+    margin-left: 25%;
+    justify-content: center;
+}
+.btnsCarro {
+    background-color: #6aa;
+    color: #000;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+#contBtns {
+    margin-left: 43%;
+}
+#titCarro {
+    text-align: center;
+}
+#subTotal {
+    display: inline;
+    margin-left: 44%;
+    color: #000;
+    background-color: #6aa;
+    font-size: 22px;
+}
